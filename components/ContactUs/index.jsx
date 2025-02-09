@@ -166,7 +166,11 @@ const ContactUs = () => {
                 </DetailIcons>
                 <Detail>
                   <DetailTitle>Email</DetailTitle>
-                  <Link href="mailto:hello@intelpik.com" passHref>
+                  <Link
+                    href="mailto:                        contact@velaagencies.com
+"
+                    passHref
+                  >
                     <a aria-label="Send an email to itsfares11@gmail.com">
                       {" "}
                       <DetailDescription>
