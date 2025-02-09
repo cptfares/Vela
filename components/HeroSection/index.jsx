@@ -48,7 +48,7 @@ const Character = styled(motion.span)`
 `;
 
 const HeroSection = () => {
- // const inputRef = useRef(null)
+  // const inputRef = useRef(null)
   const settings = {
     infinite: true,
     slidesToShow: 5,
@@ -135,7 +135,9 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-            >We Build Solutions, Not Just Websites</Heading>
+            >
+              We Build Solutions, Not Just Websites
+            </Heading>
 
             <HeroDescription
               initial={{ opacity: 0, y: 50 }}
@@ -145,60 +147,47 @@ const HeroSection = () => {
               We build solutions that get results, not just a pretty website
             </HeroDescription>
 
-            
-              <Link href="#heroContact" passHref><a><HeaderButton onClick={()=>inputRef.current.focus()}>Lets Talk</HeaderButton></a></Link>
-            
+            <Link href="#heroContact" passHref>
+              <a>
+                <HeaderButton>Lets Talk</HeaderButton>
+              </a>
+            </Link>
 
             <StarDiv role="img" aria-label="5 out of 5 stars">
-              <StarImg src="/images/star svg.svg" alt="" aria-hidden="true"></StarImg>
-              <StarImg src="/images/star svg.svg" alt="" aria-hidden="true"></StarImg>
-              <StarImg src="/images/star svg.svg" alt="" aria-hidden="true"></StarImg>
-              <StarImg src="/images/star svg.svg" alt="" aria-hidden="true"></StarImg>
-              <StarImg src="/images/star svg.svg" alt="" aria-hidden="true"></StarImg>
+              <StarImg
+                src="/images/star svg.svg"
+                alt=""
+                aria-hidden="true"
+              ></StarImg>
+              <StarImg
+                src="/images/star svg.svg"
+                alt=""
+                aria-hidden="true"
+              ></StarImg>
+              <StarImg
+                src="/images/star svg.svg"
+                alt=""
+                aria-hidden="true"
+              ></StarImg>
+              <StarImg
+                src="/images/star svg.svg"
+                alt=""
+                aria-hidden="true"
+              ></StarImg>
+              <StarImg
+                src="/images/star svg.svg"
+                alt=""
+                aria-hidden="true"
+              ></StarImg>
             </StarDiv>
 
-            <ShowText>We&apos;re not just promising, we&apos;re proving.</ShowText>
-
-            <PeopleFaces src="/images/clients-intelpik.png" alt="clients prfoile images"></PeopleFaces>
-
+            <ShowText>
+              We&apos;re not just promising, we&apos;re proving.
+            </ShowText>
           </Hero>
           <ContactUs1 />
         </Container>
-
-
       </Section>
-      <ClientSection>
-        <ClientsContainer>
-          <Slider {...settings}>
-            <ClientLogoDiv aria-hidden="true">
-              <ClientLogo src="/images/CLIENTS/Client1.svg" alt="Innovgrab logo" tabIndex={-1}/>
-            </ClientLogoDiv>
-            <ClientLogoDiv aria-hidden="true">
-              <ClientLogo src="/images/CLIENTS/client2.svg" alt="Dowl logo" tabIndex={-1}/>
-            </ClientLogoDiv>
-            <ClientLogoDiv aria-hidden="true">
-              <ClientLogo src="/images/CLIENTS/client03.svg" alt="Hitoq logo" tabIndex={-1}/>
-            </ClientLogoDiv>
-            <ClientLogoDiv aria-hidden="true">
-              <ClientLogo src="/images/CLIENTS/client04.svg" alt="Bellkare logo" tabIndex={-1}/>
-            </ClientLogoDiv>
-            <ClientLogoDiv aria-hidden="true">
-              <ClientLogo src="/images/CLIENTS/client05.svg" alt="Aadiveda logo" tabIndex={-1}/>
-            </ClientLogoDiv>
-            <ClientLogoDiv aria-hidden="true">
-              <ClientLogo src="/images/CLIENTS/Client06.svg" alt="Neocart logo" tabIndex={-1}/>
-            </ClientLogoDiv>
-            <ClientLogoDiv aria-hidden="true">
-              <ClientLogo src="/images/CLIENTS/client07.svg" alt="Neha group logo" tabIndex={-1}/>
-            </ClientLogoDiv>
-            <ClientLogoDiv aria-hidden="true">
-              <ClientLogo src="/images/CLIENTS/client08.svg" alt="Neotech logo" tabIndex={-1}/>
-            </ClientLogoDiv>
-
-
-          </Slider>
-        </ClientsContainer>
-      </ClientSection>
     </>
   );
 };

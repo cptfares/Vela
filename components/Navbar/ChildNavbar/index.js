@@ -1,4 +1,4 @@
-import React,{ useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Links from "../../../data/menuLinks";
 import LogoImage from "/public/images/62375b2bd5c8856bf9e4f5df_Logo.png";
 import {
@@ -15,12 +15,10 @@ import {
 } from "./ChildNavbar.styled";
 import Link from "next/link";
 
-
-const ChildNavbar = ({ toggle}) => {
+const ChildNavbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const LogoValue = "text";
-
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -35,11 +33,18 @@ const ChildNavbar = ({ toggle}) => {
   }, []);
 
   return (
-    
-    <Nav  scrollNav={scrollNav} >
+    <Nav scrollNav={scrollNav}>
       <NavContainer>
         <NavLink href="/">
-         <NavLinkA aria-label="Intelpik Home">{LogoValue === "text" ? <Link href="https://intelpik.com/"><LogoText>Intelpik.</LogoText></Link> :<Logo src={LogoImage.src} alt="logo" />}</NavLinkA>
+          <NavLinkA aria-label="vela Home">
+            {LogoValue === "text" ? (
+              <Link href="#">
+                <LogoText>vela.</LogoText>
+              </Link>
+            ) : (
+              <Logo src={LogoImage.src} alt="logo" />
+            )}
+          </NavLinkA>
         </NavLink>
         <MobileMenu onClick={toggle}>
           <MenuIcon />
@@ -55,7 +60,6 @@ const ChildNavbar = ({ toggle}) => {
         </NavMenu>
       </NavContainer>
     </Nav>
-    
   );
 };
 

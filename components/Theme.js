@@ -6,23 +6,23 @@ export const theme = {
     primaryBackground: "#5928e5",
     secondaryBackground: "#fcef6d",
     accentBackground: "#6368E5",
-    primary: "#FFFDF6",
+    primary: "#01D6E6",
     secondary: "#FEE33A",
-    teritory:"#1D1A26",
+    teritory: "#1D1A26",
     accent: "#6368E5",
   },
 
   fontSizes: {
-    xxxxxxxl:"18.75rem",//300px
-    xxxxxxl:"12.5rem",//200px
-    xxxxxl:"9.375rem",//150px
+    xxxxxxxl: "18.75rem", //300px
+    xxxxxxl: "12.5rem", //200px
+    xxxxxl: "9.375rem", //150px
     xxxxl: "9rem", //114px
     xxxl: "8rem",
     xxl: "7rem", //112px
     xl: "6rem", //96px
-    l: "5rem",  //80px
+    l: "5rem", //80px
     m: "3.94rem", //63.04px
-    ms: "3.1rem",//49px
+    ms: "3.1rem", //49px
     s: "2.88rem", // 46.08px
     xs: "2.3rem", //36.8px
     xxs: "1.75rem", //28px
@@ -32,45 +32,45 @@ export const theme = {
     xxxxxxs: "0.75rem", //12px
   },
   width: [
-    "10%",//[0]
-    "20%",//[1]
-    "30%",//[2]
-    "40%",//[3]
-    "50%",//[4]
-    "60%",//[5]
-    "70%",//[6]
-    "80%",//[7]
-    "90%",//[8]
-    "95%",//[9]
-    "100%",//[10]
+    "10%", //[0]
+    "20%", //[1]
+    "30%", //[2]
+    "40%", //[3]
+    "50%", //[4]
+    "60%", //[5]
+    "70%", //[6]
+    "80%", //[7]
+    "90%", //[8]
+    "95%", //[9]
+    "100%", //[10]
   ],
-  height:[
-    "10vh",//[0]
-    "20vh",//[1]
-    "30vh",//[2]
-    "40vh",//[3]
-    "50vh",//[4]
-    "60vh",//[5]
-    "70vh",//[6]
-    "80vh",//[7]
-    "90vh",//[8]
-    "100vh",//[9]
+  height: [
+    "10vh", //[0]
+    "20vh", //[1]
+    "30vh", //[2]
+    "40vh", //[3]
+    "50vh", //[4]
+    "60vh", //[5]
+    "70vh", //[6]
+    "80vh", //[7]
+    "90vh", //[8]
+    "100vh", //[9]
   ],
   buttons: {
     primary: {
       color: "#1D1A26",
       width: "fit-content",
-      boxSizing:"border-box",
+      boxSizing: "border-box",
       backgroundColor: "#FFD338",
       display: "inline-block",
-      border:'none',
+      border: "none",
       textDecoration: "none",
       borderRadius: "10px",
       padding: "16px 62px",
       fontSize: "22px",
       fontWeight: "600",
-      textAlign:"center",
-      fontFamily: '\"Plus Jakarta Sans\", sans-serif',
+      textAlign: "center",
+      fontFamily: '"Plus Jakarta Sans", sans-serif',
       letterSpacing: "0.8px",
       cursor: "pointer",
       transition: "all 0.2s ease-in-out",
@@ -86,12 +86,10 @@ export const theme = {
           fontWeight: "600",
         },
       },
-
-
     },
     secondary: {
       color: "#FFFFFF",
-      boxSizing:"border-box",
+      boxSizing: "border-box",
       backgroundColor: "#1D1A26",
       display: "inline-block",
       textDecoration: "none",
@@ -100,7 +98,7 @@ export const theme = {
       padding: "13.5px 50px",
       fontSize: "1.199rem",
       fontWeight: "600",
-      textAlign:"center",
+      textAlign: "center",
       cursor: "pointer",
       transition: "all 0.2s ease-in-out",
       mediaQuery: {
@@ -114,19 +112,19 @@ export const theme = {
           padding: "8px 22x",
           fontWeight: "500",
         },
-      }
+      },
     },
     teritary: {
       color: "#000",
       textDecoration: "underline",
-      boxSizing:"border-box",
+      boxSizing: "border-box",
       display: "inline-block",
-      backgroundColor: 'transparent',
+      backgroundColor: "transparent",
       border: "none",
       padding: "13.5px 32px",
       fontSize: "1.199rem",
       fontWeight: "500",
-      textAlign:"center",
+      textAlign: "center",
       cursor: "pointer",
       transition: "all 0.2s ease-in-out",
       mediaQuery: {
@@ -140,19 +138,19 @@ export const theme = {
           padding: "8px 22x",
           fontWeight: "500",
         },
-      }
+      },
     },
     quaternary: {
       color: "#000",
-      backgroundColor: 'transparent',
+      backgroundColor: "transparent",
       display: "inline-block",
-      boxSizing:"border-box",
+      boxSizing: "border-box",
       textDecoration: "none",
       borderRadius: "3px",
       border: "2px solid #FFD338",
       padding: "13.5px 32px",
       fontSize: "1.199rem",
-      textAlign:"center",
+      textAlign: "center",
       fontWeight: "500",
       cursor: "pointer",
       transition: "all 0.2s ease-in-out",
@@ -167,8 +165,8 @@ export const theme = {
           padding: "8px 22x",
           fontWeight: "500",
         },
-    }
-  }
+      },
+    },
   },
 
   mobile: {
@@ -178,16 +176,16 @@ export const theme = {
   },
 
   breakpoints: {
-    extraSmallMobile:"395px", //395px
+    extraSmallMobile: "395px", //395px
     smallestMobile: "530px", //530px
-    smallMobile:"662px", //662px
+    smallMobile: "662px", //662px
     mobile: "785px", //785px
     smallTablet: "895px", // 895px
     tablet: "1100px", // 1100px
     laptop: "1250px", // 1250px
     desktop: "1400px", // 1400px
     desktopL: "1600px", // 1600px
-  }, 
+  },
   fontWeights: {
     thin: 200,
     light: 300,
@@ -196,9 +194,8 @@ export const theme = {
     semibold: 600,
     bold: 700,
     bolder: 800,
-    black: 900
+    black: 900,
   },
-
 
   lineHeights: {
     body: 1.5,
@@ -228,7 +225,6 @@ export const theme = {
     outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",
   },
 
-
   space: [
     0, // [0]
     "0.125rem", // 2px [1]
@@ -239,19 +235,18 @@ export const theme = {
     "4rem", // 64px [6]
     "8rem", // 128px [7]
     "16rem", // 256px [8]
-    "1.5rem",// 24px [9]
-    "3rem",// 48px[10]
-    "5rem",//75px[11]
-    "18.75rem",//300px[12]
-    "9.375rem",//150px[13]
-    "12.5rem",//200px[14]
-    "6.25rem",//100px[15]
-
+    "1.5rem", // 24px [9]
+    "3rem", // 48px[10]
+    "5rem", //75px[11]
+    "18.75rem", //300px[12]
+    "9.375rem", //150px[13]
+    "12.5rem", //200px[14]
+    "6.25rem", //100px[15]
   ],
 
   transition: {
     base: "all 0.2s ease-in-out",
     short: "all 0.1s ease-in-out",
     long: "all 0.3s ease-in-out",
-  }
-}
+  },
+};

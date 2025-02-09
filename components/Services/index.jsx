@@ -34,92 +34,82 @@ const Services = () => {
           <WhatWeDo>What We do</WhatWeDo>
           <ServiceHeadingDiv>
             <ServiceHeading>Services We Offer</ServiceHeading>
-            <Link href='#contact-us'>
-             <ContactButton>Contact Us</ContactButton>
+            <Link href="#contact-us">
+              <ContactButton>Contact Us</ContactButton>
             </Link>
           </ServiceHeadingDiv>
         </ServiceHeader>
 
         <ServiceContent>
           <ServiceList>
-
             <Service
-              initial={{opacity:0,y:100}}
-              whileInView={{opacity:1,y:0}}
-              transition={{duration:0.6,delay:0.5}}
-              viewport={{ once: true}}
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+              viewport={{ once: true }}
             >
               <ServiceImage
-               alt="Web Development Icon"
-                initial={{ opacity: 0 ,x:-130}}
-                whileInView={{ opacity: 1,x:0 }}
-                transition={{duration:0.7,delay:0.8}}
-                viewport={{ once: true}}
-                src="/images/website development.svg"></ServiceImage>
-           
-                <ServiceTitle>
-                  Web Development
-                </ServiceTitle>
-              
+                alt="Web Development Icon"
+                initial={{ opacity: 0, x: -130 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7, delay: 0.8 }}
+                viewport={{ once: true }}
+                src="/images/website development.svg"
+              ></ServiceImage>
+
+              <ServiceTitle>Web Development</ServiceTitle>
+
               <ServiceDetails>
-              Get the most out of web development and grow your business.
+                Get the most out of web development and grow your business.
               </ServiceDetails>
-              
-
             </Service>
 
             <Service
-              initial={{opacity:0,y:100}}
-              whileInView={{opacity:1,y:0}}
-              transition={{duration:0.6,delay:0.6}}
-              viewport={{ once: true}}
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              viewport={{ once: true }}
             >
               <ServiceImage
-              alt="App Development Icon"
-                initial={{ opacity: 0 ,x:-130}}
-                              whileInView={{ opacity: 1,x:0 }}
-                              transition={{duration:0.7,delay:0.8}}
-                              viewport={{ once: true}}
-                src="/images/app development.svg"></ServiceImage>
-              
-                <ServiceTitle>
-                  App Development
-                </ServiceTitle>
-              
-              <ServiceDetails>
-                Mobile app development solutions that help you reach your target audience.
-              </ServiceDetails>             
-              
-            </Service>
+                alt="Photography and videography"
+                initial={{ opacity: 0, x: -130 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7, delay: 0.8 }}
+                viewport={{ once: true }}
+                src="/images/video.png"
+              ></ServiceImage>
 
-            <Service
-              initial={{opacity:0,y:100}}
-              whileInView={{opacity:1,y:0}}
-              transition={{duration:0.6,delay:0.7}}
-              viewport={{ once: true}}
-            >
-              <ServiceImage
-              alt="Digital Marketing Icon"
-                initial={{ opacity: 0 ,x:-130}}
-                whileInView={{ opacity: 1,x:0 }}
-                transition={{duration:0.7,delay:0.8}}
-                viewport={{ once: true}}
-                src="/images/digital marketing.svg"></ServiceImage>
-              
-                <ServiceTitle>
-                Digital Marketing
-                </ServiceTitle>
-              
+              <ServiceTitle>Photography and videography</ServiceTitle>
+
               <ServiceDetails>
-                <p>Strategic Digital Marketing Solutions for Business Growth</p>   
+                Photography and videography services that help you reach
+                showcase your product.
               </ServiceDetails>
-              
             </Service>
 
+            <Service
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.7 }}
+              viewport={{ once: true }}
+            >
+              <ServiceImage
+                alt="Digital Marketing Icon"
+                initial={{ opacity: 0, x: -130 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7, delay: 0.8 }}
+                viewport={{ once: true }}
+                src="/images/digital marketing.svg"
+              ></ServiceImage>
+
+              <ServiceTitle>Digital Marketing</ServiceTitle>
+
+              <ServiceDetails>
+                <p>Strategic Digital Marketing Solutions for Business Growth</p>
+              </ServiceDetails>
+            </Service>
           </ServiceList>
-
         </ServiceContent>
-
       </Container>
     </Section>
   );
