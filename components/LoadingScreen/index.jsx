@@ -7,7 +7,7 @@ const LoadingScreen = () => {
     <Screen>
       <Container>
         <Title>Vela agency</Title>
-        <Tagline>Crafting the future</Tagline>
+        <Tagline>guiding hand for brands to stand</Tagline>
       </Container>
     </Screen>
   );
