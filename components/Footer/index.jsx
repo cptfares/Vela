@@ -15,7 +15,7 @@ const Footer = () => {
               href="velaagencies.com
 "
             >
-              Intelpik
+              Vela Agency
             </Link>
           </strong>
         </FooterTitles>

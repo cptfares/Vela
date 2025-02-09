@@ -100,7 +100,7 @@ const ContactUs = () => {
     };
     axios
       .post(
-        "https://sheet.best/api/sheets/69f079ba-8f87-4135-a184-a6709080c738",
+        "https://api.sheetbest.com/sheets/aac45345-ba1f-46a8-8401-66c225805156",
         data
       )
       .then((response) => {
@@ -167,7 +167,7 @@ const ContactUs = () => {
                 <Detail>
                   <DetailTitle>Email</DetailTitle>
                   <Link href="mailto:hello@intelpik.com" passHref>
-                    <a aria-label="Send an email to intelpik@gmail.com">
+                    <a aria-label="Send an email to itsfares11@gmail.com">
                       {" "}
                       <DetailDescription>
                         contact@velaagencies.com

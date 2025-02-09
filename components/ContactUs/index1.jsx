@@ -99,7 +99,7 @@ const ContactUs1 = (props) => {
     };
     axios
       .post(
-        "https://sheet.best/api/sheets/69f079ba-8f87-4135-a184-a6709080c738",
+        "https://api.sheetbest.com/sheets/aac45345-ba1f-46a8-8401-66c225805156",
         data
       )
       .then((response) => {
@@ -186,7 +186,9 @@ const ContactUs1 = (props) => {
           >
             <option value="Web Development">Web Development</option>
             <option value="Digital Marketing">Digital Marketing</option>
-            <option value="App Developement">App Development</option>
+            <option value="Photgraphy & Videgraphy">
+              Photgraphy & Videgraphy
+            </option>
           </Dropdowns>
           <br />
           <label htmlFor="email">Ping us at 😉</label>&nbsp;

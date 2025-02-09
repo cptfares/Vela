@@ -52,7 +52,7 @@ const HomePage = () => {
       <ContactUs />
       <a
         target="_blank"
-        href="https://wa.me/+1 (571)523-9063"
+        href="https://wa.me/+15715239063"
         aria-label="Chat with us on WhatsApp"
       >
         <FloatingButton
