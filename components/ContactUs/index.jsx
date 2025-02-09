@@ -213,7 +213,7 @@ const ContactUs = () => {
                       </a>
                     </Link>
                     <Link
-                      href="https://www.instagram.com/vela_agencies/"
+                      href="https://www.linkedin.com/company/vela-agency/"
                       passHref
                     >
                       <a
