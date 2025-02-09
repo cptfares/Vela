@@ -259,7 +259,7 @@ const ContactUs = () => {
                 >
                   <option value="Web Development">Web Development</option>
                   <option value="Digital Marketing">Digital Marketing</option>
-                  <option value="App Developement">
+                  <option value="Photography & Videography">
                     Photography & Videography
                   </option>
                 </Dropdowns>

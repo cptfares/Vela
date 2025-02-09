@@ -57,7 +57,7 @@ const ContactUs1 = (props) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [service, setService] = useState("");
-  const [phone, setPhone] = useState("")
+  const [phone, setPhone] = useState("");
 
   const sendMail = (e) => {
     e.preventDefault();
@@ -123,7 +123,7 @@ const ContactUs1 = (props) => {
     sendMail(e);
   };
   var Services = [
-    "App Development",
+    "photography & videography ",
     "Web Development",
     "UI/UX Desgin",
     "Web Hosting",
@@ -151,16 +151,17 @@ const ContactUs1 = (props) => {
   ];
   const defaultOption = "Select Service";
   return (
-    <HeroForm id="heroContact"
-      initial={{opacity:0}}
-      animate={{opacity:1}}
-      transition={{delay:2}}
+    <HeroForm
+      id="heroContact"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 2 }}
     >
       <Form onSubmit={submit}>
         <GetaQuote>Get a quote</GetaQuote>
         {/* <ScheduleP>Schedule an Appointment</ScheduleP> */}
         <ContactForm>
-        <label htmlFor="name">  Hey👋my name is </label> &nbsp;
+          <label htmlFor="name"> Hey👋my name is </label> &nbsp;
           <NameInput
             id="name"
             type="text"
@@ -172,10 +173,10 @@ const ContactUs1 = (props) => {
             }}
             required
           />
-
-&nbsp;<label htmlFor="service"> and I&apos;m looking for </label>&nbsp;
+          &nbsp;<label htmlFor="service"> and I&apos;m looking for </label>
+          &nbsp;
           <Dropdowns
-          id="service"
+            id="service"
             value={sender_service}
             placeholder="&nbsp; Select a service"
             onChange={(e) => {
@@ -190,7 +191,7 @@ const ContactUs1 = (props) => {
           <br />
           <label htmlFor="email">Ping us at 😉</label>&nbsp;
           <EmailInput
-           id="email"
+            id="email"
             type="email"
             value={sender_email}
             placeholder="&nbsp; Your Email Address"
@@ -200,7 +201,7 @@ const ContactUs1 = (props) => {
             }}
             required
           />
-               <label htmlFor="phone">Contact number📞</label>&nbsp;
+          <label htmlFor="phone">Contact number📞</label>&nbsp;
           <PhoneInput
             id="phone"
             type="tel"
@@ -214,17 +215,17 @@ const ContactUs1 = (props) => {
           />
         </ContactForm>
         <TermsCheckbox>
-          <label  style={{ display: 'flex', alignItems: 'center' }}>
-          <Checkbox
-            type="checkbox"
-            onChange={(e) => {
-              setCheck(e.target.checked);
-            }}
-            required
-          />
-          <CheckboxTitle>
-            I have accepted all the terms and conditions
-          </CheckboxTitle>
+          <label style={{ display: "flex", alignItems: "center" }}>
+            <Checkbox
+              type="checkbox"
+              onChange={(e) => {
+                setCheck(e.target.checked);
+              }}
+              required
+            />
+            <CheckboxTitle>
+              I have accepted all the terms and conditions
+            </CheckboxTitle>
           </label>
         </TermsCheckbox>
         <SubmitForm type="Submit">Send Enquiry</SubmitForm>
