@@ -22,7 +22,7 @@ const AboutUs = () => {
         <AboutBelow>
           <AboutImageDiv>
             <AboutImage
-              src="/images/vela1.png"
+              src="/images/vela2.png"
               alt="Two female team members discussing project"
             />
           </AboutImageDiv>
