@@ -20,6 +20,13 @@ const works = [
     url: "https://ministry-to-youth.com",
     alt: "Ministry to youth shop ",
   },
+    {
+    id: 4,
+    name: "Genius Glasss Services",
+    image: "/images/MOCKUPS/geniusglass.png",
+    url: "https://www.geniusglassservices.com",
+    alt: "genius glasss services",
+  },
 ];
 
 export default works;
