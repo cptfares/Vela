@@ -23,7 +23,7 @@ const works = [
     {
     id: 4,
     name: "Genius Glasss Services",
-    image: "/images/MOCKUPS/geniusglass.png",
+    image: "/images/geniusglass.png",
     url: "https://www.geniusglassservices.com",
     alt: "genius glasss services",
   },
