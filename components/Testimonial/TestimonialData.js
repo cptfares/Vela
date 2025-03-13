@@ -42,7 +42,7 @@ const slides = [
   ,
     {
     key: 4,
-    Image: "/images/testm3.png",
+    Image: "/images/tesstm3.jpeg",
     Name: "Paul Chapman",
     position: " CEO of Glass Genius",
     Descriptions:
