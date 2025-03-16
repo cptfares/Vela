@@ -9,8 +9,19 @@ const slides = [
     class: "AboveContainer",
     star: 5,
   },
-  {
+    ,
+    {
     key: 1,
+    Image: "/images/tesstm3.jpeg",
+    Name: "Paul Chapman",
+    position: " CEO of Glass Genius",
+    Descriptions:
+      "Working with Vela was an absolute pleasure! He designed a fantastic website for Glass Genius that truly reflects our brand. Highly recommend his services for anyone looking for a top-notch website!",
+    class: "AboveContainer",
+    star: 5,
+  },
+  {
+    key: 2,
     Image: "/images/mondher1.png",
     Name: "Mondher Gorgi",
     position: "CEO of Trio",
@@ -20,7 +31,7 @@ const slides = [
     star: 5,
   },
   {
-    key: 2,
+    key: 3,
     Image: "/images/testm1.png",
     Name: "Triki Abderrahmen ",
     position: "CEO of vistara",
@@ -30,7 +41,7 @@ const slides = [
     star: 5,
   },
     {
-    key: 3,
+    key: 4,
     Image: "/images/testm2.png",
     Name: "Oussema zouari  ",
     position: "CEO of East west",
@@ -39,17 +50,7 @@ const slides = [
     class: "AboveContainer",
     star: 5,
   },
-  ,
-    {
-    key: 4,
-    Image: "/images/tesstm3.jpeg",
-    Name: "Paul Chapman",
-    position: " CEO of Glass Genius",
-    Descriptions:
-      "Working with Vela was an absolute pleasure! He designed a fantastic website for Glass Genius that truly reflects our brand. Vela’s creativity, attention to detail, and professionalism shone through in every aspect of the site.. Highly recommend his services for anyone looking for a top-notch website!",
-    class: "AboveContainer",
-    star: 5,
-  },
+
 ];
 
 export default slides;
